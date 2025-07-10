@@ -1,1 +1,13 @@
-.gitignore
+name = "vibecode-email-worker"
+main = "src/index.js"
+compatibility_date = "2024-07-01"
+compatibility_flags = ["email"]
+workers_dev = true
+logpush = true
+
+[triggers]
+routes = []
+
+[build]
+command = ""
+upload.format = "modules"
