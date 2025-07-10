@@ -1,1 +1,12 @@
-.gitignore
+{
+  "name": "vibecode-email-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --email",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.55.0"
+  }
+}
